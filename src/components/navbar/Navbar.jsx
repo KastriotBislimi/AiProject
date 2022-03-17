@@ -23,7 +23,7 @@ const Menu = () => (
   </>
 );
 
-function Navbar() {
+const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="gtp3__navbar">
@@ -67,6 +67,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

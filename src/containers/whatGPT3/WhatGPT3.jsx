@@ -1,10 +1,8 @@
-import React from 'react';
-import './whatGPT3.css'
+import React from "react";
+import "./whatGPT3.css";
 
-function WhatGPT3() {
-  return (
-    <div>WhatGPT3</div>
-  )
-}
+const WhatGPT3 = () => {
+  return <div className="gpt3__whatgpt3 section__margin" id="whpt3"></div>;
+};
 
-export default WhatGPT3
+export default WhatGPT3;
