@@ -31,7 +31,6 @@
   flex: 1.5;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
 }
 .gpt3__features-margin {
